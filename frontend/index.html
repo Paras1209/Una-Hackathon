@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopX - E-commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav-content">
+                    <h1 class="logo">ShopX</h1>
+                    <div class="search-bar">
+                        <input type="search" id="searchInput" placeholder="Search products...">
+                    </div>
+                    <div class="cart-container">
+                        <button class="cart-button" id="cartButton">
+                            Cart (<span id="cartCount">0</span>)
+                        </button>
+                        <div class="cart-dropdown" id="cartDropdown">
+                            <div class="cart-items" id="cartItems">
+                                <!-- Cart items will be inserted here -->
+                            </div>
+                            <div class="cart-total">
+                                <span>Total:</span>
+                                <span id="cartTotal">$0.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- chatbot -->
+    <div class="chat-button" onclick="toggleChat()">
+        <svg class="chat-icon" viewBox="0 0 24 24">
+            <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" fill="currentColor"/>
+        </svg>
+    </div>
+
+    <div class="chat-window">
+        <div class="chat-header">
+            <h3>Chat Assistant</h3>
+            <button class="close-button" onclick="toggleChat()">×</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">Hello! How can I help you today?</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="layout">
+            <aside class="sidebar">
+                <h2>Categories</h2>
+                <div class="category-dropdown">
+                    <button class="category-dropdown-btn" id="categoryDropdownBtn">
+                        All Products
+                        <span class="dropdown-arrow">▼</span>
+                    </button>
+                    <div class="category-dropdown-content" id="categoryDropdownContent">
+                        <button class="category-option active" data-category="all">All Products</button>
+                        <button class="category-option" data-category="Electronics">Electronics</button>
+                        <button class="category-option" data-category="Fashion">Fashion</button>
+                        <button class="category-option" data-category="Home & Living">Home & Living</button>
+                        <button class="category-option" data-category="Sports">Sports</button>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <template id="product-card-template">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="" alt="">
+            </div>
+            <div class="product-content">
+                <span class="category-tag"></span>
+                <h3 class="product-title"></h3>
+                <p class="product-description"></p>
+                <div class="product-footer">
+                    <p class="product-price"></p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
