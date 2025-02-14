@@ -1,0 +1,1263 @@
+[
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 1,
+    "fields": {
+      "product_id": "E001",
+      "title": "Wireless Earbuds",
+      "description": "High-quality wireless earbuds with noise cancellation.",
+      "category": "Electronics",
+      "price": 49.99,
+      "imgs": {
+        "main": "img1.jpg",
+        "gallery": ["img1_1.jpg", "img1_2.jpg"]
+      },  
+      "specs": {
+        "battery_life": "8 hours",
+        "bluetooth_version": "5.0",
+        "water_resistance": "IPX5"
+      },
+      "inStock": 150,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Great sound quality!", "rating": 5},
+        {"comment": "Very comfortable.", "rating": 4}
+      ],
+      "tags": ["wireless", "earbuds", "electronics"],
+      "discountPrice": 39.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 2,
+    "fields": {
+      "product_id": "E002",
+      "title": "Smartphone X12",
+      "description": "Flagship smartphone with stunning display and powerful processor.",
+      "category": "Electronics",
+      "price": 999.99,
+      "imgs": {
+        "main": "phone1.jpg",
+        "gallery": ["phone1_1.jpg", "phone1_2.jpg"]
+      },
+      "specs": {
+        "display": "6.5-inch AMOLED",
+        "processor": "Octa-core 3.1GHz",
+        "battery": "4500mAh"
+      },
+      "inStock": 100,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Amazing performance!", "rating": 5},
+        {"comment": "Battery life could be better.", "rating": 4}
+      ],
+      "tags": ["smartphone", "electronics"],
+      "discountPrice": 899.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 3,
+    "fields": {
+      "product_id": "F001",
+      "title": "Men's Leather Jacket",
+      "description": "Stylish black leather jacket with premium finish.",
+      "category": "Fashion",
+      "price": 99.99,
+      "specs": {
+        "material": "Genuine Leather",
+        "color": "Black",
+        "size": "M, L, XL"
+      },
+      "inStock": 50,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Perfect fit!", "rating": 5},
+        {"comment": "Very stylish.", "rating": 4.5}
+      ],
+      "tags": ["leather", "jacket", "fashion"],
+      "discountPrice": 79.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 4,
+    "fields": {
+      "product_id": "F002",
+      "title": "Women's Winter Coat",
+      "description": "Warm and cozy winter coat for extreme weather.",
+      "category": "Fashion",
+      "price": 119.99,
+      "imgs": {
+        "main": "coat1.jpg",
+        "gallery": ["coat1_1.jpg", "coat1_2.jpg"]
+      },
+      "specs": {
+        "material": "Wool Blend",
+        "color": "Beige",
+        "size": "S, M, L"
+      },
+      "inStock": 40,
+      "rating": 4.8,
+      "reviews": [
+        {"comment": "Super warm and comfortable!", "rating": 5},
+        {"comment": "Great quality.", "rating": 4.5}
+      ],
+      "tags": ["winter", "coat", "fashion"],
+      "discountPrice": 99.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 5,
+    "fields": {
+      "product_id": "H001",
+      "title": "Smart Vacuum Cleaner",
+      "description": "Automatic smart vacuum cleaner with app control.",
+      "category": "Home Appliances",
+      "price": 179.99,
+      "imgs": {
+        "main": "vacuum1.jpg",
+        "gallery": ["vacuum1_1.jpg", "vacuum1_2.jpg"]
+      },
+      "specs": {
+        "battery_life": "120 minutes",
+        "smart_features": "App Control, Voice Assistant Support",
+        "dust_capacity": "0.5L"
+      },
+      "inStock": 80,
+      "rating": 4.3,
+      "reviews": [
+        {"comment": "Cleans very well!", "rating": 4.5},
+        {"comment": "A bit noisy but effective.", "rating": 4}
+      ],
+      "tags": ["vacuum", "smart", "home"],
+      "discountPrice": 159.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 7,
+    "fields": {
+      "product_id": "E005",
+      "title": "Bluetooth Speaker",
+      "description": "Portable Bluetooth speaker with deep bass and long battery life.",
+      "category": "Electronics",
+      "price": 79.99,
+      "imgs": {
+        "main": "speaker2.jpg",
+        "gallery": ["speaker2_1.jpg", "speaker2_2.jpg"]
+      },
+      "specs": {
+        "battery_life": "12 hours",
+        "bluetooth_version": "5.0",
+        "water_resistance": "IPX7"
+      },
+      "inStock": 120,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Great sound quality!", "rating": 5},
+        {"comment": "Very portable.", "rating": 4.5}
+      ],
+      "tags": ["bluetooth", "speaker", "electronics"],
+      "discountPrice": 69.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 8,
+    "fields": {
+      "product_id": "E006",
+      "title": "Fitness Tracker",
+      "description": "Advanced fitness tracker with heart rate monitor and GPS.",
+      "category": "Electronics",
+      "price": 99.99,
+      "imgs": {
+        "main": "tracker1.jpg",
+        "gallery": ["tracker1_1.jpg", "tracker1_2.jpg"]
+      },
+      "specs": {
+        "display": "1.2-inch OLED",
+        "battery": "200mAh",
+        "water_resistance": "IP68"
+      },
+      "inStock": 200,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Very accurate tracking!", "rating": 5},
+        {"comment": "Comfortable to wear.", "rating": 4.5}
+      ],
+      "tags": ["fitness", "tracker", "electronics"],
+      "discountPrice": 89.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 9,
+    "fields": {
+      "product_id": "F005",
+      "title": "Women's Handbag",
+      "description": "Elegant leather handbag with multiple compartments.",
+      "category": "Fashion",
+      "price": 149.99,
+      "imgs": {
+        "main": "handbag1.jpg",
+        "gallery": ["handbag1_1.jpg", "handbag1_2.jpg"]
+      },
+      "specs": {
+        "material": "Genuine Leather",
+        "color": "Red",
+        "size": "Medium"
+      },
+      "inStock": 80,
+      "rating": 4.8,
+      "reviews": [
+        {"comment": "Very stylish!", "rating": 5},
+        {"comment": "Good quality.", "rating": 4.5}
+      ],
+      "tags": ["handbag", "leather", "fashion"],
+      "discountPrice": 129.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 10,
+    "fields": {
+      "product_id": "F006",
+      "title": "Men's Sneakers",
+      "description": "Comfortable and stylish sneakers for everyday use.",
+      "category": "Fashion",
+      "price": 89.99,
+      "imgs": {
+        "main": "sneakers1.jpg",
+        "gallery": ["sneakers1_1.jpg", "sneakers1_2.jpg"]
+      },
+      "specs": {
+        "material": "Mesh & Rubber",
+        "color": "White",
+        "size": "8, 9, 10, 11"
+      },
+      "inStock": 100,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Very comfortable!", "rating": 5},
+        {"comment": "Looks great.", "rating": 4.5}
+      ],
+      "tags": ["sneakers", "fashion"],
+      "discountPrice": 79.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 11,
+    "fields": {
+      "product_id": "H005",
+      "title": "Smart Door Lock",
+      "description": "Secure smart door lock with fingerprint and app control.",
+      "category": "Home Appliances",
+      "price": 199.99,
+      "imgs": {
+        "main": "doorlock1.jpg",
+        "gallery": ["doorlock1_1.jpg", "doorlock1_2.jpg"]
+      },
+      "specs": {
+        "connectivity": "WiFi",
+        "compatibility": "Alexa, Google Assistant",
+        "power_source": "Battery"
+      },
+      "inStock": 50,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Very secure!", "rating": 5},
+        {"comment": "Easy to install.", "rating": 4.5}
+      ],
+      "tags": ["door lock", "smart", "home"],
+      "discountPrice": 179.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 12,
+    "fields": {
+      "product_id": "H006",
+      "title": "Smart Plug",
+      "description": "Energy-efficient smart plug with app control.",
+      "category": "Home Appliances",
+      "price": 29.99,
+      "imgs": {
+        "main": "plug1.jpg",
+        "gallery": ["plug1_1.jpg", "plug1_2.jpg"]
+      },
+      "specs": {
+        "connectivity": "WiFi",
+        "compatibility": "Alexa, Google Assistant",
+        "power_source": "AC"
+      },
+      "inStock": 300,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Very convenient!", "rating": 5},
+        {"comment": "Easy to use.", "rating": 4.5}
+      ],
+      "tags": ["plug", "smart", "home"],
+      "discountPrice": 24.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 15,
+    "fields": {
+      "product_id": "F003",
+      "title": "Leather Jacket",
+      "description": "Premium leather jacket with stylish design and comfort.",
+      "category": "Fashion",
+      "price": 189.99,
+      "imgs": {
+        "main": "jacket1.jpg",
+        "gallery": ["jacket1_1.jpg", "jacket1_2.jpg"]
+      },
+      "specs": {
+        "material": "Genuine leather",
+        "color": "Black",
+        "size": "M, L, XL"
+      },
+      "inStock": 80,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Feels premium!", "rating": 5},
+        {"comment": "Runs a little small.", "rating": 4}
+      ],
+      "tags": ["fashion", "leather", "jacket"],
+      "discountPrice": 149.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 16,
+    "fields": {
+      "product_id": "H002",
+      "title": "Smart Home Speaker",
+      "description": "Voice-controlled smart speaker with premium sound quality.",
+      "category": "Home & Kitchen",
+      "price": 129.99,
+      "imgs": {
+        "main": "speaker1.jpg",
+        "gallery": ["speaker1_1.jpg", "speaker1_2.jpg"]
+      },
+      "specs": {
+        "voice_assistant": "Alexa, Google Assistant",
+        "connectivity": "WiFi, Bluetooth",
+        "power_source": "AC adapter"
+      },
+      "inStock": 120,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Great sound and easy setup!", "rating": 5},
+        {"comment": "Limited third-party integrations.", "rating": 4}
+      ],
+      "tags": ["home", "smart", "speaker"],
+      "discountPrice": 99.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 17,
+    "fields": {
+      "product_id": "B001",
+      "title": "Ergonomic Office Chair",
+      "description": "Comfortable office chair with adjustable lumbar support.",
+      "category": "Furniture",
+      "price": 249.99,
+      "imgs": {
+        "main": "chair1.jpg",
+        "gallery": ["chair1_1.jpg", "chair1_2.jpg"]
+      },
+      "specs": {
+        "adjustability": "Height, tilt, armrest",
+        "material": "Mesh, foam padding",
+        "color": "Black"
+      },
+      "inStock": 60,
+      "rating": 4.9,
+      "reviews": [
+        {"comment": "Very comfortable for long hours!", "rating": 5},
+        {"comment": "Assembly takes time.", "rating": 4}
+      ],
+      "tags": ["office", "chair", "furniture"],
+      "discountPrice": 199.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 18,
+    "fields": {
+      "product_id": "E007",
+      "title": "Wireless Earbuds",
+      "description": "High-quality wireless earbuds with noise cancellation.",
+      "category": "Electronics",
+      "price": 49.99,
+      "imgs": {
+        "main": "img1.jpg",
+        "gallery": ["img1_1.jpg", "img1_2.jpg"]
+      },
+      "specs": {
+        "battery_life": "8 hours",
+        "bluetooth_version": "5.0",
+        "water_resistance": "IPX5"
+      },
+      "inStock": 150,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Great sound quality!", "rating": 5},
+        {"comment": "Very comfortable.", "rating": 4}
+      ],
+      "tags": ["wireless", "earbuds", "electronics"],
+      "discountPrice": 39.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 19,
+    "fields": {
+      "product_id": "E008",
+      "title": "Smartphone X12",
+      "description": "Flagship smartphone with stunning display and powerful processor.",
+      "category": "Electronics",
+      "price": 999.99,
+      "imgs": {
+        "main": "phone1.jpg",
+        "gallery": ["phone1_1.jpg", "phone1_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.7 inches",
+        "processor": "Octa-core 3.0GHz",
+        "camera": "108MP + 12MP + 10MP"
+      },
+      "inStock": 200,
+      "rating": 4.8,
+      "reviews": [
+        {"comment": "Amazing display!", "rating": 5},
+        {"comment": "Battery life could be better.", "rating": 4}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 899.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 20,
+    "fields": {
+      "product_id": "E009",
+      "title": "Gaming Laptop Z15",
+      "description": "High-performance gaming laptop with powerful graphics.",
+      "category": "Electronics",
+      "price": 1599.99,
+      "imgs": {
+        "main": "laptop1.jpg",
+        "gallery": ["laptop1_1.jpg", "laptop1_2.jpg"]
+      },
+      "specs": {
+        "processor": "Intel i9 11th Gen",
+        "graphics": "RTX 3080",
+        "ram": "32GB DDR4"
+      },
+      "inStock": 100,
+      "rating": 4.9,
+      "reviews": [
+        {"comment": "Handles AAA games smoothly!", "rating": 5},
+        {"comment": "A bit heavy to carry around.", "rating": 4}
+      ],
+      "tags": ["laptop", "gaming", "electronics"],
+      "discountPrice": 1399.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 21,
+    "fields": {
+      "product_id": "F004",
+      "title": "Leather Jacket",
+      "description": "Premium leather jacket with stylish design and comfort.",
+      "category": "Fashion",
+      "price": 199.99,
+      "imgs": {
+        "main": "jacket1.jpg",
+        "gallery": ["jacket1_1.jpg", "jacket1_2.jpg"]
+      },
+      "specs": {
+        "material": "Genuine leather",
+        "color": "Black",
+        "size": "M, L, XL"
+      },
+      "inStock": 80,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Feels premium!", "rating": 5},
+        {"comment": "Runs a little small.", "rating": 4}
+      ],
+      "tags": ["fashion", "leather", "jacket"],
+      "discountPrice": 149.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 22,
+    "fields": {
+      "product_id": "F0005",
+      "title": "Running Shoes",
+      "description": "Lightweight and durable running shoes for daily use.",
+      "category": "Fashion",
+      "price": 79.99,
+      "imgs": {
+        "main": "shoes1.jpg",
+        "gallery": ["shoes1_1.jpg", "shoes1_2.jpg"]
+      },
+      "specs": {
+        "material": "Mesh & Rubber",
+        "color": "Blue",
+        "size": "7, 8, 9, 10"
+      },
+      "inStock": 120,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Super comfortable!", "rating": 5},
+        {"comment": "Sole is slightly stiff.", "rating": 4}
+      ],
+      "tags": ["fashion", "running", "shoes"],
+      "discountPrice": 59.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 23,
+    "fields": {
+      "product_id": "E010",
+      "title": "Wireless Earbuds",
+      "description": "High-quality wireless earbuds with noise cancellation.",
+      "category": "Electronics",
+      "price": 49.99,
+      "imgs": {
+        "main": "img1.jpg",
+        "gallery": ["img1_1.jpg", "img1_2.jpg"]
+      },
+      "specs": {
+        "battery_life": "8 hours",
+        "bluetooth_version": "5.0",
+        "water_resistance": "IPX5"
+      },
+      "inStock": 150,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Great sound quality!", "rating": 5},
+        {"comment": "Very comfortable.", "rating": 4}
+      ],
+      "tags": ["wireless", "earbuds", "electronics"],
+      "discountPrice": 39.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 24,
+    "fields": {
+      "product_id": "E011",
+      "title": "Smartphone X12",
+      "description": "Flagship smartphone with stunning display and powerful processor.",
+      "category": "Electronics",
+      "price": 999.99,
+      "imgs": {
+        "main": "phone1.jpg",
+        "gallery": ["phone1_1.jpg", "phone1_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.7 inches",
+        "processor": "Octa-core 3.0GHz",
+        "camera": "108MP + 12MP + 10MP"
+      },
+      "inStock": 200,
+      "rating": 4.8,
+      "reviews": [
+        {"comment": "Amazing display!", "rating": 5},
+        {"comment": "Battery life could be better.", "rating": 4}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 899.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 25,
+    "fields": {
+      "product_id": "E012",
+      "title": "Gaming Laptop Z15",
+      "description": "High-performance gaming laptop with powerful graphics.",
+      "category": "Electronics",
+      "price": 1599.99,
+      "imgs": {
+        "main": "laptop1.jpg",
+        "gallery": ["laptop1_1.jpg", "laptop1_2.jpg"]
+      },
+      "specs": {
+        "processor": "Intel i9 11th Gen",
+        "graphics": "RTX 3080",
+        "ram": "32GB DDR4"
+      },
+      "inStock": 100,
+      "rating": 4.9,
+      "reviews": [
+        {"comment": "Handles AAA games smoothly!", "rating": 5},
+        {"comment": "A bit heavy to carry around.", "rating": 4}
+      ],
+      "tags": ["laptop", "gaming", "electronics"],
+      "discountPrice": 1399.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 26,
+    "fields": {
+      "product_id": "F0007",
+      "title": "Leather Jacket",
+      "description": "Premium leather jacket with stylish design and comfort.",
+      "category": "Fashion",
+      "price": 199.99,
+      "imgs": {
+        "main": "jacket1.jpg",
+        "gallery": ["jacket1_1.jpg", "jacket1_2.jpg"]
+      },
+      "specs": {
+        "material": "Genuine leather",
+        "color": "Black",
+        "size": "M, L, XL"
+      },
+      "inStock": 80,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Feels premium!", "rating": 5},
+        {"comment": "Runs a little small.", "rating": 4}
+      ],
+      "tags": ["fashion", "leather", "jacket"],
+      "discountPrice": 149.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 27,
+    "fields": {
+      "product_id": "F007",
+      "title": "Running Shoes",
+      "description": "Lightweight and durable running shoes for daily use.",
+      "category": "Fashion",
+      "price": 79.99,
+      "imgs": {
+        "main": "shoes1.jpg",
+        "gallery": ["shoes1_1.jpg", "shoes1_2.jpg"]
+      },
+      "specs": {
+        "material": "Mesh & Rubber",
+        "color": "Blue",
+        "size": "7, 8, 9, 10"
+      },
+      "inStock": 120,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Super comfortable!", "rating": 5},
+        {"comment": "Sole is slightly stiff.", "rating": 4}
+      ],
+      "tags": ["fashion", "running", "shoes"],
+      "discountPrice": 59.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 28,
+    "fields": {
+      "product_id": "E013",
+      "title": "Smartphone Y20",
+      "description": "Mid-range smartphone with excellent battery life and performance.",
+      "category": "Electronics",
+      "price": 499.99,
+      "imgs": {
+        "main": "phone2.jpg",
+        "gallery": ["phone2_1.jpg", "phone2_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.4 inches",
+        "processor": "Octa-core 2.5GHz",
+        "camera": "48MP + 8MP + 5MP",
+        "battery": "5000mAh"
+      },
+      "inStock": 150,
+      "rating": 4.4,
+      "reviews": [
+        {"comment": "Great value for money!", "rating": 5},
+        {"comment": "Battery lasts all day.", "rating": 4}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 449.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 29,
+    "fields": {
+      "product_id": "E014",
+      "title": "Smartphone Z30",
+      "description": "High-end smartphone with top-notch features and sleek design.",
+      "category": "Electronics",
+      "price": 1199.99,
+      "imgs": {
+        "main": "phone3.jpg",
+        "gallery": ["phone3_1.jpg", "phone3_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.8 inches",
+        "processor": "Octa-core 3.2GHz",
+        "camera": "108MP + 16MP + 12MP",
+        "battery": "4500mAh"
+      },
+      "inStock": 80,
+      "rating": 4.9,
+      "reviews": [
+        {"comment": "Best phone I've ever used!", "rating": 5},
+        {"comment": "Amazing camera quality.", "rating": 4.8}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 1099.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 30,
+    "fields": {
+      "product_id": "E015",
+      "title": "Smartphone A50",
+      "description": "Affordable smartphone with decent performance and features.",
+      "category": "Electronics",
+      "price": 299.99,
+      "imgs": {
+        "main": "phone4.jpg",
+        "gallery": ["phone4_1.jpg", "phone4_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.1 inches",
+        "processor": "Quad-core 2.0GHz",
+        "camera": "12MP + 5MP",
+        "battery": "4000mAh"
+      },
+      "inStock": 200,
+      "rating": 4.2,
+      "reviews": [
+        {"comment": "Good phone for the price.", "rating": 4},
+        {"comment": "Decent performance.", "rating": 4.5}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 269.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 31,
+    "fields": {
+      "product_id": "E016",
+      "title": "Smartphone B10",
+      "description": "Compact smartphone with powerful features and great camera.",
+      "category": "Electronics",
+      "price": 699.99,
+      "imgs": {
+        "main": "phone5.jpg",
+        "gallery": ["phone5_1.jpg", "phone5_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "5.8 inches",
+        "processor": "Hexa-core 2.8GHz",
+        "camera": "64MP + 12MP",
+        "battery": "3500mAh"
+      },
+      "inStock": 100,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Perfect size and great camera.", "rating": 5},
+        {"comment": "Battery life could be better.", "rating": 4}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 649.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 32,
+    "fields": {
+      "product_id": "E017",
+      "title": "Smartphone C40",
+      "description": "Budget-friendly smartphone with essential features.",
+      "category": "Electronics",
+      "price": 199.99,
+      "imgs": {
+        "main": "phone6.jpg",
+        "gallery": ["phone6_1.jpg", "phone6_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.0 inches",
+        "processor": "Quad-core 1.8GHz",
+        "camera": "8MP + 2MP",
+        "battery": "3000mAh"
+      },
+      "inStock": 250,
+      "rating": 4.0,
+      "reviews": [
+        {"comment": "Good for basic use.", "rating": 4},
+        {"comment": "Affordable and functional.", "rating": 4}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 179.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 33,
+    "fields": {
+      "product_id": "E018",
+      "title": "Smartphone D50",
+      "description": "A versatile smartphone with a stunning 6.5-inch display, powerful octa-core processor, and a triple camera setup for capturing every moment in high detail. Ideal for both work and play, with a long-lasting battery and fast charging capabilities.",
+      "category": "Electronics",
+      "price": 599.99,
+      "imgs": {
+        "main": "phone7.jpg",
+        "gallery": ["phone7_1.jpg", "phone7_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.5 inches",
+        "processor": "Octa-core 2.8GHz",
+        "camera": "64MP + 12MP + 8MP",
+        "battery": "5000mAh",
+        "storage": "128GB",
+        "ram": "6GB",
+        "os": "Android 11"
+      },
+      "inStock": 180,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Excellent performance and battery life.", "rating": 5},
+        {"comment": "Great camera quality.", "rating": 4.5}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 549.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 34,
+    "fields": {
+      "product_id": "E019",
+      "title": "Smartphone E60",
+      "description": "Experience the future of mobile technology with the Smartphone E60. Featuring a 6.7-inch edge-to-edge display, a powerful octa-core processor, and a quad-camera system that delivers professional-grade photos and videos. Perfect for tech enthusiasts and professionals alike.",
+      "category": "Electronics",
+      "price": 1299.99,
+      "imgs": {
+        "main": "phone8.jpg",
+        "gallery": ["phone8_1.jpg", "phone8_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.7 inches",
+        "processor": "Octa-core 3.0GHz",
+        "camera": "108MP + 16MP + 12MP + 8MP",
+        "battery": "4500mAh",
+        "storage": "256GB",
+        "ram": "8GB",
+        "os": "Android 12"
+      },
+      "inStock": 90,
+      "rating": 4.8,
+      "reviews": [
+        {"comment": "Incredible display and camera.", "rating": 5},
+        {"comment": "A bit pricey but worth it.", "rating": 4.7}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 1199.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 35,
+    "fields": {
+      "product_id": "E020",
+      "title": "Smartphone F70",
+      "description": "The Smartphone F70 combines elegance and performance with its sleek design and powerful hardware. Featuring a 6.3-inch AMOLED display, a high-performance octa-core processor, and a dual-camera system that captures stunning photos and videos. Ideal for users who demand both style and substance.",
+      "category": "Electronics",
+      "price": 799.99,
+      "imgs": {
+        "main": "phone9.jpg",
+        "gallery": ["phone9_1.jpg", "phone9_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.3 inches",
+        "processor": "Octa-core 2.6GHz",
+        "camera": "48MP + 12MP",
+        "battery": "4000mAh",
+        "storage": "128GB",
+        "ram": "6GB",
+        "os": "Android 11"
+      },
+      "inStock": 130,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Beautiful design and great performance.", "rating": 5},
+        {"comment": "Battery life could be better.", "rating": 4.3}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 749.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 36,
+    "fields": {
+      "product_id": "E021",
+      "title": "Smartphone G80",
+      "description": "A powerhouse of a smartphone, the G80 offers a 6.9-inch display, a cutting-edge octa-core processor, and a penta-camera system for unparalleled photography. With a massive battery and advanced AI features, this phone is designed for those who want the best in mobile technology.",
+      "category": "Electronics",
+      "price": 1499.99,
+      "imgs": {
+        "main": "phone10.jpg",
+        "gallery": ["phone10_1.jpg", "phone10_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.9 inches",
+        "processor": "Octa-core 3.3GHz",
+        "camera": "108MP + 20MP + 16MP + 12MP + 8MP",
+        "battery": "5000mAh",
+        "storage": "512GB",
+        "ram": "12GB",
+        "os": "Android 12"
+      },
+      "inStock": 70,
+      "rating": 4.9,
+      "reviews": [
+        {"comment": "Best camera on a smartphone.", "rating": 5},
+        {"comment": "Super fast and responsive.", "rating": 4.8}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 1399.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 37,
+    "fields": {
+      "product_id": "E022",
+      "title": "Smartphone H90",
+      "description": "The Smartphone H90 is designed for those who need a reliable and powerful device. It features a 6.2-inch display, a robust octa-core processor, and a triple-camera system that excels in low-light conditions. With a durable build and long battery life, it's perfect for everyday use.",
+      "category": "Electronics",
+      "price": 699.99,
+      "imgs": {
+        "main": "phone11.jpg",
+        "gallery": ["phone11_1.jpg", "phone11_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.2 inches",
+        "processor": "Octa-core 2.4GHz",
+        "camera": "48MP + 12MP + 8MP",
+        "battery": "4500mAh",
+        "storage": "64GB",
+        "ram": "4GB",
+        "os": "Android 10"
+      },
+      "inStock": 160,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Great phone for everyday use.", "rating": 5},
+        {"comment": "Good performance and battery life.", "rating": 4.5}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 649.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 37,
+    "fields": {
+      "product_id": "E022",
+      "title": "Smartphone H90",
+      "description": "The Smartphone H90 is designed for those who need a reliable and powerful device. It features a 6.2-inch display, a robust octa-core processor, and a triple-camera system that excels in low-light conditions. With a durable build and long battery life, it's perfect for everyday use.",
+      "category": "Electronics",
+      "price": 699.99,
+      "imgs": {
+        "main": "phone11.jpg",
+        "gallery": ["phone11_1.jpg", "phone11_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.2 inches",
+        "processor": "Octa-core 2.4GHz",
+        "camera": "48MP + 12MP + 8MP",
+        "battery": "4500mAh",
+        "storage": "64GB",
+        "ram": "4GB",
+        "os": "Android 10"
+      },
+      "inStock": 160,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Great phone for everyday use.", "rating": 5},
+        {"comment": "Good performance and battery life.", "rating": 4.5}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 649.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 38,
+    "fields": {
+      "product_id": "E023",
+      "title": "Smartphone X200",
+      "description": "The Smartphone X200 offers a premium experience with its 6.5-inch AMOLED display, powerful Snapdragon processor, and quad-camera setup. It is designed for users who demand high performance and excellent camera quality.",
+      "category": "Electronics",
+      "price": 899.99,
+      "imgs": {
+        "main": "phone12.jpg",
+        "gallery": ["phone12_1.jpg", "phone12_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.5 inches",
+        "processor": "Snapdragon 865",
+        "camera": "64MP + 16MP + 12MP + 8MP",
+        "battery": "5000mAh",
+        "storage": "128GB",
+        "ram": "8GB",
+        "os": "Android 11"
+      },
+      "inStock": 120,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Amazing display and camera quality.", "rating": 5},
+        {"comment": "High performance and great battery life.", "rating": 4.8}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 849.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 39,
+    "fields": {
+      "product_id": "E024",
+      "title": "Smartphone Z50",
+      "description": "The Smartphone Z50 is a budget-friendly option with a 6.1-inch display, dual-camera system, and a reliable quad-core processor. It is perfect for users who need a basic smartphone for everyday tasks.",
+      "category": "Electronics",
+      "price": 299.99,
+      "imgs": {
+        "main": "phone13.jpg",
+        "gallery": ["phone13_1.jpg", "phone13_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.1 inches",
+        "processor": "Quad-core 1.8GHz",
+        "camera": "16MP + 8MP",
+        "battery": "3000mAh",
+        "storage": "32GB",
+        "ram": "3GB",
+        "os": "Android 9"
+      },
+      "inStock": 200,
+      "rating": 4.2,
+      "reviews": [
+        {"comment": "Good value for money.", "rating": 4},
+        {"comment": "Decent performance for basic tasks.", "rating": 4.3}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 279.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 40,
+    "fields": {
+      "product_id": "E025",
+      "title": "Smartphone A10",
+      "description": "The Smartphone A10 is an entry-level device with a 5.8-inch display, dual-core processor, and a single-camera system. It is ideal for users who need a simple and affordable smartphone.",
+      "category": "Electronics",
+      "price": 199.99,
+      "imgs": {
+        "main": "phone14.jpg",
+        "gallery": ["phone14_1.jpg", "phone14_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "5.8 inches",
+        "processor": "Dual-core 1.5GHz",
+        "camera": "12MP",
+        "battery": "2500mAh",
+        "storage": "16GB",
+        "ram": "2GB",
+        "os": "Android 8"
+      },
+      "inStock": 300,
+      "rating": 3.8,
+      "reviews": [
+        {"comment": "Affordable and easy to use.", "rating": 4},
+        {"comment": "Basic features but good for the price.", "rating": 3.7}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 179.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 41,
+    "fields": {
+      "product_id": "E026",
+      "title": "Smartphone B20",
+      "description": "The Smartphone B20 offers a balanced performance with its 6.0-inch display, quad-core processor, and dual-camera system. It is suitable for users who need a reliable smartphone for everyday use.",
+      "category": "Electronics",
+      "price": 349.99,
+      "imgs": {
+        "main": "phone15.jpg",
+        "gallery": ["phone15_1.jpg", "phone15_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.0 inches",
+        "processor": "Quad-core 2.0GHz",
+        "camera": "20MP + 8MP",
+        "battery": "3500mAh",
+        "storage": "64GB",
+        "ram": "4GB",
+        "os": "Android 9"
+      },
+      "inStock": 180,
+      "rating": 4.3,
+      "reviews": [
+        {"comment": "Good performance and camera quality.", "rating": 4.5},
+        {"comment": "Reliable and easy to use.", "rating": 4.2}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 329.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 42,
+    "fields": {
+      "product_id": "E027",
+      "title": "Smartphone C30",
+      "description": "The Smartphone C30 is a mid-range device with a 6.3-inch display, hexa-core processor, and a triple-camera system. It is designed for users who need a versatile smartphone with good performance and camera capabilities.",
+      "category": "Electronics",
+      "price": 499.99,
+      "imgs": {
+        "main": "phone16.jpg",
+        "gallery": ["phone16_1.jpg", "phone16_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.3 inches",
+        "processor": "Hexa-core 2.2GHz",
+        "camera": "32MP + 12MP + 5MP",
+        "battery": "4000mAh",
+        "storage": "128GB",
+        "ram": "6GB",
+        "os": "Android 10"
+      },
+      "inStock": 150,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Excellent performance and camera.", "rating": 4.8},
+        {"comment": "Great value for the price.", "rating": 4.5}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 479.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 43,
+    "fields": {
+      "product_id": "E028",
+      "title": "Smartphone D40",
+      "description": "The Smartphone D40 is a high-end device with a 6.7-inch OLED display, octa-core processor, and a quad-camera system. It is perfect for users who demand top-notch performance and camera quality.",
+      "category": "Electronics",
+      "price": 999.99,
+      "imgs": {
+        "main": "phone17.jpg",
+        "gallery": ["phone17_1.jpg", "phone17_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.7 inches",
+        "processor": "Octa-core 3.0GHz",
+        "camera": "108MP + 16MP + 12MP + 8MP",
+        "battery": "6000mAh",
+        "storage": "256GB",
+        "ram": "12GB",
+        "os": "Android 11"
+      },
+      "inStock": 100,
+      "rating": 4.9,
+      "reviews": [
+        {"comment": "Outstanding performance and camera.", "rating": 5},
+        {"comment": "Best smartphone I've ever used.", "rating": 4.9}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 949.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 44,
+    "fields": {
+      "product_id": "E029",
+      "title": "Smartphone E50",
+      "description": "The Smartphone E50 is a versatile device with a 6.4-inch display, hexa-core processor, and a triple-camera system. It is designed for users who need a reliable smartphone with good performance and camera capabilities.",
+      "category": "Electronics",
+      "price": 599.99,
+      "imgs": {
+        "main": "phone18.jpg",
+        "gallery": ["phone18_1.jpg", "phone18_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.4 inches",
+        "processor": "Hexa-core 2.5GHz",
+        "camera": "48MP + 12MP + 5MP",
+        "battery": "4500mAh",
+        "storage": "128GB",
+        "ram": "6GB",
+        "os": "Android 10"
+      },
+      "inStock": 140,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Great performance and battery life.", "rating": 4.6},
+        {"comment": "Good value for the price.", "rating": 4.4}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 569.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 45,
+    "fields": {
+      "product_id": "E030",
+      "title": "Smartphone F60",
+      "description": "The Smartphone F60 is a premium device with a 6.8-inch AMOLED display, octa-core processor, and a quad-camera system. It is ideal for users who want the best in performance and camera quality.",
+      "category": "Electronics",
+      "price": 1099.99,
+      "imgs": {
+        "main": "phone19.jpg",
+        "gallery": ["phone19_1.jpg", "phone19_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.8 inches",
+        "processor": "Octa-core 3.2GHz",
+        "camera": "108MP + 20MP + 12MP + 10MP",
+        "battery": "6500mAh",
+        "storage": "512GB",
+        "ram": "16GB",
+        "os": "Android 11"
+      },
+      "inStock": 90,
+      "rating": 4.8,
+      "reviews": [
+        {"comment": "Exceptional performance and camera.", "rating": 5},
+        {"comment": "Worth every penny.", "rating": 4.7}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 1049.99
+    }
+  }
+]
