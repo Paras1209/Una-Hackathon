@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHub - Modern E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">ShopHub</div>
+        <div class="nav-items">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+        </div>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <div class="hero-section" id="home">
+        <div class="hero-content">
+            <h1>Welcome to ShopHub</h1>
+            <p>Discover our curated collection of premium products</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </div>
+
+    <section class="featured-categories" id="categories">
+        <h2>Featured Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" alt="Electronics">
+                <h3>Electronics</h3>
+                <p>Latest gadgets and devices</p>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Accessories">
+                <h3>Accessories</h3>
+                <p>Premium accessories for you</p>
+            </div>
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1616423641454-caa695af6a0f" alt="Gaming">
+                <h3>Gaming</h3>
+                <p>Take your gaming to the next level</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section" id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid" id="product-grid">
+            <!-- Products will be added here dynamically -->
+        </div>
+    </section>
+
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be added here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                Total: $<span id="cart-total">0</span>
+            </div>
+            <button class="checkout-button">Checkout</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 ShopHub. All rights reserved.</p>
+    </footer>
+
+    <!-- Add Chat Bot -->
+    <div class="chat-bot">
+        <div class="chat-bot-button" id="chat-bot-button">
+            <i class="fas fa-comments"></i>
+        </div>
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <h3>Customer Support</h3>
+                <button class="close-chat" id="close-chat">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot">
+                    Hello! How can I help you today?
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="user-message" placeholder="Type your message...">
+                <button id="send-message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
