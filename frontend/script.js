@@ -26,10 +26,10 @@ const products = [
     },
     {
         id: 4,
-        name: "Camera Lens",
+        name: "Foot wear",
         price: 599.99,
-        category: "Electronics",
-        description: "Professional grade optics",
+        category: "Sports",
+        description: "Comfortablity",
         image: "https://images.unsplash.com/photo-1615615228002-890bb61cac6e"
     },
     {
@@ -39,6 +39,30 @@ const products = [
         category: "Electronics",
         description: "Classic photography",
         image: "https://images.unsplash.com/photo-1616423641454-caa695af6a0f"
+    }
+    ,{
+        id: 6,
+        name: "Smart Phone",
+        price: 92.23,
+        category: "Electronics",
+        description: "Best Performance",
+        image: "https://vasanthandco.in/UploadedFiles/productimages/20240715050129-%20%20(1).png"
+    }
+    ,{
+        id: 7,
+        name: "Laptop",
+        price: 92.23,
+        category: "Electronics",
+        description: "Best gaming",
+        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHx8MA%3D%3D"
+    }
+    ,{
+        id: 8,
+        name: "Clothes",
+        price: 26.40,
+        category: "Home & Living",
+        description: "Cotton",
+        image: "https://www.fabriclounge.in/wp-content/uploads/2020/02/raymond-top.jpg"
     }
 ];
 
