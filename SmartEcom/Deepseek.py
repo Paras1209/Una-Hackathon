@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AIzaSyD8beV13xY5E7PTfER5gdCd79vYKsRfahY")  # Replace with your actual API key
+client = genai.Client(api_key="")
 
 prompt = """
 You are a shopping assistant. Help users find the best products based on their preferences. 

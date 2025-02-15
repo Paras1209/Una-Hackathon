@@ -14,8 +14,17 @@ from pathlib import Path
 import os
 import google.generativeai as genai
 
+import environ
+
+# Initialize environment variables
+env = environ.Env()
+environ.Env.read_env()
+
+# Other sensitive settings
+API_KEY = env('API_KEY')
+
 GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
-genai.configure(api_key="AIzaSyD8beV13xY5E7PTfER5gdCd79vYKsRfahY")
+genai.configure(api_key="")
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
