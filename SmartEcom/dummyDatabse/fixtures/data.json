@@ -1259,5 +1259,293 @@
       "tags": ["smartphone", "electronics", "mobile"],
       "discountPrice": 1049.99
     }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 46,
+    "fields": {
+      "product_id": "E031",
+      "title": "Smartphone G70",
+      "description": "The Smartphone G70 is a flagship device with a 6.9-inch Super AMOLED display, octa-core processor, and a penta-camera system. It is designed for users who want the ultimate smartphone experience.",
+      "category": "Electronics",
+      "price": 1299.99,
+      "imgs": {
+        "main": "phone20.jpg",
+        "gallery": ["phone20_1.jpg", "phone20_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.9 inches",
+        "processor": "Octa-core 3.5GHz",
+        "camera": "108MP + 20MP + 16MP + 12MP + 8MP",
+        "battery": "7000mAh",
+        "storage": "512GB",
+        "ram": "16GB",
+        "os": "Android 12"
+      },
+      "inStock": 80,
+      "rating": 4.9,
+      "reviews": [
+        {"comment": "Unmatched performance and camera quality.", "rating": 5},
+        {"comment": "The best smartphone on the market.", "rating": 4.9}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 1249.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 47,
+    "fields": {
+      "product_id": "E032",
+      "title": "Smartphone H80",
+      "description": "The Smartphone H80 is a high-performance device with a 6.6-inch OLED display, hexa-core processor, and a quad-camera system. It is perfect for users who need a powerful smartphone with excellent camera capabilities.",
+      "category": "Electronics",
+      "price": 899.99,
+      "imgs": {
+        "main": "phone21.jpg",
+        "gallery": ["phone21_1.jpg", "phone21_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.6 inches",
+        "processor": "Hexa-core 2.8GHz",
+        "camera": "64MP + 16MP + 12MP + 8MP",
+        "battery": "5000mAh",
+        "storage": "256GB",
+        "ram": "8GB",
+        "os": "Android 11"
+      },
+      "inStock": 110,
+      "rating": 4.7,
+      "reviews": [
+        {"comment": "Great performance and camera.", "rating": 4.8},
+        {"comment": "Highly recommended.", "rating": 4.6}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 849.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 48,
+    "fields": {
+      "product_id": "E033",
+      "title": "Smartphone I90",
+      "description": "The Smartphone I90 is a mid-range device with a 6.5-inch display, quad-core processor, and a dual-camera system. It is designed for users who need a reliable smartphone with good performance and camera quality.",
+      "category": "Electronics",
+      "price": 499.99,
+      "imgs": {
+        "main": "phone22.jpg",
+        "gallery": ["phone22_1.jpg", "phone22_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.5 inches",
+        "processor": "Quad-core 2.2GHz",
+        "camera": "24MP + 8MP",
+        "battery": "4000mAh",
+        "storage": "128GB",
+        "ram": "4GB",
+        "os": "Android 10"
+      },
+      "inStock": 130,
+      "rating": 4.4,
+      "reviews": [
+        {"comment": "Good performance and value for money.", "rating": 4.5},
+        {"comment": "Reliable and easy to use.", "rating": 4.3}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 469.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 49,
+    "fields": {
+      "product_id": "E034",
+      "title": "Smartphone J100",
+      "description": "The Smartphone J100 is a high-end device with a 6.8-inch OLED display, octa-core processor, and a quad-camera system. It is designed for users who demand top performance and camera quality.",
+      "category": "Electronics",
+      "price": 1199.99,
+      "imgs": {
+        "main": "phone23.jpg",
+        "gallery": ["phone23_1.jpg", "phone23_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.8 inches",
+        "processor": "Octa-core 3.1GHz",
+        "camera": "108MP + 16MP + 12MP + 8MP",
+        "battery": "6000mAh",
+        "storage": "256GB",
+        "ram": "12GB",
+        "os": "Android 12"
+      },
+      "inStock": 90,
+      "rating": 4.8,
+      "reviews": [
+        {"comment": "Outstanding performance and camera.", "rating": 5},
+        {"comment": "Best smartphone I've ever used.", "rating": 4.8}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 1149.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 50,
+    "fields": {
+      "product_id": "E035",
+      "title": "Smartphone K110",
+      "description": "The Smartphone K110 is a mid-range device with a 6.4-inch display, hexa-core processor, and a triple-camera system. It is perfect for users who need a reliable smartphone with good performance and camera capabilities.",
+      "category": "Electronics",
+      "price": 599.99,
+      "imgs": {
+        "main": "phone24.jpg",
+        "gallery": ["phone24_1.jpg", "phone24_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.4 inches",
+        "processor": "Hexa-core 2.4GHz",
+        "camera": "48MP + 12MP + 5MP",
+        "battery": "4500mAh",
+        "storage": "128GB",
+        "ram": "6GB",
+        "os": "Android 11"
+      },
+      "inStock": 140,
+      "rating": 4.5,
+      "reviews": [
+        {"comment": "Great performance and battery life.", "rating": 4.6},
+        {"comment": "Good value for the price.", "rating": 4.4}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 569.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 51,
+    "fields": {
+      "product_id": "E036",
+      "title": "Smartphone L120",
+      "description": "The Smartphone L120 is a budget-friendly device with a 6.1-inch display, quad-core processor, and a dual-camera system. It is ideal for users who need a basic smartphone for everyday tasks.",
+      "category": "Electronics",
+      "price": 299.99,
+      "imgs": {
+        "main": "phone25.jpg",
+        "gallery": ["phone25_1.jpg", "phone25_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.1 inches",
+        "processor": "Quad-core 1.8GHz",
+        "camera": "16MP + 8MP",
+        "battery": "3000mAh",
+        "storage": "32GB",
+        "ram": "3GB",
+        "os": "Android 9"
+      },
+      "inStock": 200,
+      "rating": 4.2,
+      "reviews": [
+        {"comment": "Good value for money.", "rating": 4},
+        {"comment": "Decent performance for basic tasks.", "rating": 4.3}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 279.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 52,
+    "fields": {
+      "product_id": "E037",
+      "title": "Smartphone M130",
+      "description": "The Smartphone M130 is a high-end device with a 6.9-inch OLED display, octa-core processor, and a quad-camera system. It is designed for users who demand top performance and camera quality.",
+      "category": "Electronics",
+      "price": 1299.99,
+      "imgs": {
+        "main": "phone26.jpg",
+        "gallery": ["phone26_1.jpg", "phone26_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.9 inches",
+        "processor": "Octa-core 3.2GHz",
+        "camera": "108MP + 20MP + 12MP + 8MP",
+        "battery": "6500mAh",
+        "storage": "512GB",
+        "ram": "16GB",
+        "os": "Android 12"
+      },
+      "inStock": 80,
+      "rating": 4.9,
+      "reviews": [
+        {"comment": "Outstanding performance and camera.", "rating": 5},
+        {"comment": "Best smartphone I've ever used.", "rating": 4.9}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 1249.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 53,
+    "fields": {
+      "product_id": "E038",
+      "title": "Smartphone N140",
+      "description": "The Smartphone N140 is a mid-range device with a 6.5-inch display, hexa-core processor, and a triple-camera system. It is perfect for users who need a reliable smartphone with good performance and camera capabilities.",
+      "category": "Electronics",
+      "price": 699.99,
+      "imgs": {
+        "main": "phone27.jpg",
+        "gallery": ["phone27_1.jpg", "phone27_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.5 inches",
+        "processor": "Hexa-core 2.6GHz",
+        "camera": "48MP + 12MP + 5MP",
+        "battery": "5000mAh",
+        "storage": "256GB",
+        "ram": "8GB",
+        "os": "Android 11"
+      },
+      "inStock": 120,
+      "rating": 4.6,
+      "reviews": [
+        {"comment": "Great performance and battery life.", "rating": 4.7},
+        {"comment": "Good value for the price.", "rating": 4.5}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 669.99
+    }
+  },
+  {
+    "model": "dummyDatabse.Product",
+    "pk": 54,
+    "fields": {
+      "product_id": "E039",
+      "title": "Smartphone O150",
+      "description": "The Smartphone O150 is a budget-friendly device with a 6.2-inch display, quad-core processor, and a dual-camera system. It is ideal for users who need a basic smartphone for everyday tasks.",
+      "category": "Electronics",
+      "price": 349.99,
+      "imgs": {
+        "main": "phone28.jpg",
+        "gallery": ["phone28_1.jpg", "phone28_2.jpg"]
+      },
+      "specs": {
+        "screen_size": "6.2 inches",
+        "processor": "Quad-core 2.0GHz",
+        "camera": "16MP + 8MP",
+        "battery": "3500mAh",
+        "storage": "64GB",
+        "ram": "4GB",
+        "os": "Android 10"
+      },
+      "inStock": 180,
+      "rating": 4.3,
+      "reviews": [
+        {"comment": "Good value for money.", "rating": 4.2},
+        {"comment": "Decent performance for basic tasks.", "rating": 4.3}
+      ],
+      "tags": ["smartphone", "electronics", "mobile"],
+      "discountPrice": 329.99
+    }
   }
 ]
