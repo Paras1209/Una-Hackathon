@@ -1,6 +1,11 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 import google.generativeai as genai
+from rest_framework import generics
+from .models import Product
+from .serializers import ProductSerializer
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_http_methods
 
 # Set up Google Gemini API
 genai.configure(api_key="AIzaSyD8beV13xY5E7PTfER5gdCd79vYKsRfahY")
@@ -53,3 +58,13 @@ def chatbot_response(request):
 
 def chat_view(request):
     return render(request, "chat.html")
+
+class ProductList(generics.ListAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+@csrf_exempt
+@require_http_methods(["GET"])
+def get_products(request):
+    products = Product.objects.all().values()
+    return JsonResponse(list(products), safe=False)
